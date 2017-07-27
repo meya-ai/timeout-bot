@@ -1,0 +1,7 @@
+-   flow: catchall
+    intent: meya.catchall
+-   flow: hello_world
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: hi

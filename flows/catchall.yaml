@@ -1,0 +1,6 @@
+name: catchall
+states:
+    timeout:
+        component: meya.start_flow
+        properties:
+            flow: timeout

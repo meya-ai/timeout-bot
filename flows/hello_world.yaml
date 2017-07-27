@@ -1,0 +1,10 @@
+name: hello_world
+states:
+    timeout:
+        component: meya.start_flow
+        properties:
+            flow: timeout
+    first:
+        component: meya.text
+        properties:
+            text: Hello, World!

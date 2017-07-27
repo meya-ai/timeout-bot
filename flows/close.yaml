@@ -1,0 +1,6 @@
+name: close
+states:
+    first:
+        component: meya.text
+        properties:
+            text: "Replace this with `human.close`"

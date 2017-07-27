@@ -1,0 +1,16 @@
+name: timeout
+states:
+    # stop existing timeout
+    stop:
+        component: meya.schedule_stop
+        properties:
+            tag: close_conversation
+    # start a new timeout (10s)
+    start:
+        flow: meya.schedule
+        data:
+            tag: close_conversation
+            flow: close
+            period: seconds
+            interval: 10
+            max_count: 1
