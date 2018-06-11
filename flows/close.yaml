@@ -1,4 +1,3 @@
-name: close
 states:
     first:
         component: meya.text

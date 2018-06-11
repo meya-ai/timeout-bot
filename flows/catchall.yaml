@@ -1,4 +1,5 @@
-name: catchall
+triggers:
+  - type: meya.catchall
 states:
     timeout:
         component: meya.start_flow

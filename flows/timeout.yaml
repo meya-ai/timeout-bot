@@ -1,4 +1,3 @@
-name: timeout
 states:
     # stop existing timeout
     stop:

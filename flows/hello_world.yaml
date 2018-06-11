@@ -1,4 +1,8 @@
-name: hello_world
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: hi
 states:
     timeout:
         component: meya.start_flow
